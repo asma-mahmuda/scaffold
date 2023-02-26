@@ -21,8 +21,9 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
+    "clean": "rm -rf ./build/index.bundle.js",
     "test": "react-scripts test"
   },
   "eslintConfig": {
